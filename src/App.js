@@ -12,6 +12,7 @@ function App() {
 return (
     <div>
        <Routes>
+       <Route path="/" element={<Clock></Clock>}></Route>
        <Route path="/Clock" element={<Clock></Clock>}></Route>
        <Route path="/Alaram" element={<Alaram></Alaram>}></Route>
        <Route path="/Timer" element={<Timer></Timer>}></Route>
